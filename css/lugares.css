@@ -1,0 +1,32 @@
+h1 {
+    color: #042249
+}
+
+.site-nav {
+    
+    margin-top: 20px;
+}
+html {
+    background-color: #d5dee9;
+    line-height: 3;
+}
+.site-nav a {
+    display: block;
+    color:#3587f2;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 3px solid #042249;
+}
+.site-nav a:hover {
+ background-color: #b8bcc2;
+}
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+
+}
+.site-nav li {
+    margin-right: 5px;
+    list-style: none;
+    float: left;
+}

@@ -1,0 +1,222 @@
+html {
+  background-color: #d8e0fa;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 110%;
+}
+
+.container header h1 {
+  font-family:'Times New Roman', Times, serif;
+  margin: 0;
+    font-weight: normal;
+    font-size: 200%;
+}
+
+.content-area h1{
+  color: #03025a;
+  padding-top: 10px;
+  font-family: 'Times New Roman', Times, serif ;
+  font-weight: normal;
+    font-size: 150%;
+}
+
+header {
+  padding-left: 40px;
+  padding-top: 40px;
+  color: #f8f8fa;
+  background-image: linear-gradient(to bottom,#0b5674, #1478a0 );
+  background-color: #aebce9;
+  background-position: right;
+}
+
+header h1 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 165%;
+}
+
+.site-nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+
+header p {
+  margin: 0;
+}
+
+.site-nav li {
+  list-style: none;
+  float: left;
+  margin-right: 5px;
+
+}
+
+.site-nav ul {
+ margin: 0;
+ padding: 0;
+}
+.site-nav {
+ margin-top: 20px;
+
+}
+.site-nav a {
+ font-size: 82%;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ display: block;
+ text-decoration: none;
+ color:#ebebf5;
+ padding: 10px 15px;
+ border: 2px solid #01638a;
+ border-bottom: none;
+}
+.site-nav ul.dropdown li {
+ font-size: 85%;
+ list-style: none;
+ float: none;
+ width:150px;
+}
+
+.site-nav ul.dropdown a {
+ display: block;
+ text-decoration: none;
+ background-color: #bcd4f5;
+ color:#03025a;
+ padding: 10px 15px;
+ border: 2px solid #b9c8fa;
+ border-bottom: none;
+}
+
+.site-nav ul.dropdown a:hover {
+ background-color: #01638a;
+}
+
+
+.site-nav a:hover {
+background-color: #b9c8fa;
+}
+
+
+ul li ul.dropdown li {
+  display:block;
+}
+
+
+ul li ul.dropdown {
+  width: 100%;
+  position:absolute;
+  z-index: 999;
+  display:none
+}
+
+
+ul li:hover ul.dropdown {
+  display:block;
+}
+
+.tarifas-entrada {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(222, 248, 201);
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+    border: 3px solid #81a868;
+}
+
+.tarifas-camp {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(222, 248, 201);
+  padding-left: 40px;
+  padding-right: 40px;
+  box-sizing: border-box;
+  border: 3px solid #81a868;
+}
+
+.horario {
+  background-color: #81a868bd;
+}
+
+.import {
+  font-weight: bold;
+}
+
+.s {
+  color: #810202;
+}
+
+h4 {
+  color: #265e03;
+}
+.p {
+  background-color: #a6e968;
+  width: 150px;
+}
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    width:110%;
+  }
+  
+  .container {
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fafafa;
+    box-sizing: border-box;
+  }
+  
+  
+  .content-area {
+    border-top: 3px solid hsl(78, 23%, 89%);
+    border-bottom: 3px solid #e5e9dc;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  
+  .main-area {
+    
+    line-height: 1.5;
+    width: 66%;
+    float: left;
+    padding-right: 40px;
+    box-sizing: border-box;
+  }
+  
+  .sidebar {
+    width: 34%;
+    float: left;
+    background-color: #fdfdfd;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    font-size: 85%;
+  }
+  
+  footer {
+    text-align: center;
+    font-size: 85%;
+    color: #03025a;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .group:before,
+  .group:after {
+    content: "";
+    display: table;
+  }
+  
+  .group:after {
+    clear: both;
+  }
+  
+  .group {
+    zoom: 1;
+  }
